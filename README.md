@@ -1,38 +1,51 @@
-📊 Power BI Sales Dashboard
-A comprehensive Power BI dashboard for visualizing and analyzing sales data to help make data-driven business decisions.
+# 📊 Power BI Sales Dashboard
 
-🚀 Overview
-This Power BI dashboard provides actionable insights into sales performance, helping stakeholders understand trends, top-performing products, regions, sales reps, and customer behavior.
+This repository contains a Power BI dashboard for sales data analysis. It provides insightful visualizations to track performance, identify trends, and drive data-backed business decisions.
 
-📌 Features
-📈 Sales Trends – Monthly and quarterly trends
-🛍️ Top Products – Best-selling products by revenue and volume
-🌍 Regional Analysis – Sales by region/city/state
-👥 Customer Segmentation – New vs Returning Customers
-🧑‍💼 Salesperson Performance – Individual sales contributions
-📦 Inventory Insights – Stock levels and turnover
+## 🧾 Dashboard Name
+Sales Performance Dashboard – Power BI
 
-📂 Dataset
-The dataset used contains:
-Date
-Customer Name
-Product Name
-Category
-Sales Amount
-Quantity Sold
-Region
-Salesperson
-Profit
+## 📌 Key Features
 
-🛠 Tools Used
-Power BI Desktop
-Microsoft Excel (for data cleaning)
-DAX (Data Analysis Expressions)
-📷 Screenshots
-Add more screenshots if needed.
-🧠 Key Insights
-20% increase in sales from Q1 to Q2.
+- 📅 Time-wise Sales Trends – Monthly and yearly performance
+- 🧾 Total Sales & Profit – Overall revenue and margin tracking
+- 🛍️ Top Selling Products – Filtered by revenue and quantity
+- 🌍 Sales by Region – Geo-mapped visuals by city/state
+- 👥 Customer Insights – New vs returning, and customer lifetime value
+- 🧑‍💼 Salesperson Performance – Individual target vs achievement
+- 📦 Category-wise Sales – Compare product categories and inventory trends
 
-Region X contributed to 35% of total revenue.
-Product Z is the top performer with 500+ units sold monthly.
-Salesperson A consistently exceeds monthly targets.
+## 🧾 Data Model Summary
+
+- Tables Used:  
+  - `Sales Data`
+  - `Products`
+  - `Customers`
+  - `Regions`
+  - `Time/Calendar Table`
+
+- Measures Created (DAX):
+  - Total Sales
+  - Total Profit
+  - Monthly Growth Rate
+  - YoY Comparison
+  - Profit Margin %
+  - Top N Products by Sales
+
+## 🖼️ Dashboard Preview
+
+![Dashboard Screenshot](screenshots/sales-dashboard-preview.png)  
+*Add your own screenshot under a `/screenshots` folder.*
+
+## 🛠 Tools & Technologies
+
+- Power BI Desktop (.pbix)
+- Microsoft Excel / SQL (for preprocessing)
+- DAX for custom metrics
+- Power Query for ETL
+
+## 📁 How to Use
+
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/NotSneharsh/Power-BI-Sales-Dasboard.git
